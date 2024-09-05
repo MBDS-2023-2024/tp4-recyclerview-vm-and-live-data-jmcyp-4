@@ -7,26 +7,26 @@ object FakeApiServiceGenerator {
 
     @JvmField
     var FAKE_USERS = mutableListOf(
-        User("001", "Jake", "https://api.adorable.io/AVATARS/512/1.png"),
-        User("002", "Paul", "https://api.adorable.io/AVATARS/512/2.png"),
-        User("003", "Phil", "https://api.adorable.io/AVATARS/512/3.png"),
-        User("004", "Guillaume", "https://api.adorable.io/AVATARS/512/4.png"),
-        User("005", "Francis", "https://api.adorable.io/AVATARS/512/5.png"),
-        User("006", "George", "https://api.adorable.io/AVATARS/512/6.png"),
-        User("007", "Louis", "https://api.adorable.io/AVATARS/512/7.png"),
-        User("008", "Mateo", "https://api.adorable.io/AVATARS/512/8.png"),
-        User("009", "April", "https://api.adorable.io/AVATARS/512/9.png"),
-        User("010", "Louise", "https://api.adorable.io/AVATARS/512/10.png"),
-        User("011", "Elodie", "https://api.adorable.io/AVATARS/512/11.png"),
-        User("012", "Helene", "https://api.adorable.io/AVATARS/512/12.png"),
-        User("013", "Fanny", "https://api.adorable.io/AVATARS/512/13.png"),
-        User("014", "Laura", "https://api.adorable.io/AVATARS/512/14.png"),
-        User("015", "Gertrude", "https://api.adorable.io/AVATARS/512/15.png"),
-        User("016", "Chloé", "https://api.adorable.io/AVATARS/512/16.png"),
-        User("017", "April", "https://api.adorable.io/AVATARS/512/17.png"),
-        User("018", "Marie", "https://api.adorable.io/AVATARS/512/18.png"),
-        User("019", "Henri", "https://api.adorable.io/AVATARS/512/19.png"),
-        User("020", "Rémi", "https://api.adorable.io/AVATARS/512/20.png")
+        User("001", "Jake", "https://static.vecteezy.com/system/resources/previews/009/379/389/original/woman-face-clipart-design-illustration-free-png.png"),
+        User("002", "Paul", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("003", "Phil", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("004", "Guillaume", "https://static.vecteezy.com/system/resources/previews/009/305/632/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("005", "Francis", "https://static.vecteezy.com/system/resources/previews/009/383/940/original/little-girl-face-clipart-design-illustration-free-png.png"),
+        User("006", "George", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("007", "Louis", "https://static.vecteezy.com/system/resources/previews/009/379/389/original/woman-face-clipart-design-illustration-free-png.png"),
+        User("008", "Mateo", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("009", "April", "https://static.vecteezy.com/system/resources/previews/009/305/632/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("010", "Louise", "https://www.seekpng.com/png/detail/17-176376_person-free-download-and-person-icon-png.png"),
+        User("011", "Elodie", "https://static.vecteezy.com/system/resources/previews/009/383/940/original/little-girl-face-clipart-design-illustration-free-png.png"),
+        User("012", "Helene", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("013", "Fanny", "https://www.seekpng.com/png/detail/17-176376_person-free-download-and-person-icon-png.png"),
+        User("014", "Laura", "https://static.vecteezy.com/system/resources/previews/009/305/632/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("015", "Gertrude", "https://static.vecteezy.com/system/resources/previews/009/383/446/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("016", "Chloé", "https://www.seekpng.com/png/detail/17-176376_person-free-download-and-person-icon-png.png"),
+        User("017", "April", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("018", "Marie", "https://www.seekpng.com/png/detail/17-176376_person-free-download-and-person-icon-png.png"),
+        User("019", "Henri", "https://static.vecteezy.com/system/resources/previews/009/383/446/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("020", "Rémi", "https://static.vecteezy.com/system/resources/previews/009/379/389/original/woman-face-clipart-design-illustration-free-png.png")
     )
 
     @JvmField
