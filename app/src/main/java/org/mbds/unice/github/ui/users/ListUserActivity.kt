@@ -49,32 +49,11 @@ class ListUserActivity : AppCompatActivity(), UserListAdapter.Listener {
         fab = binding.activityListUserFab
         fab.setOnClickListener {
             viewModel.generateRandomUser()
-
         }
     }
 
-    override fun onClickDelete(user: User) {
-        Log.d("UserAction", "Suppression demandée pour l'utilisateur : ${user.login}")
-
-        val builder = AlertDialog.Builder(this)
-        builder.setTitle("Confirmation")
-        builder.setMessage("Voulez-vous vraiment supprimer ${user.login} ?")
-
-        builder.setPositiveButton("Supprimer") { _, _ ->
-            Log.d("UserAction", "Suppression confirmée pour l'utilisateur : ${user.login}")
-            deleteUser(user)
-        }
-
-        builder.setNegativeButton("Annuler") { dialog, _ ->
-            Log.d("UserAction", "Suppression annulée pour l'utilisateur : ${user.login}")
-            dialog.dismiss()
-        }
-
-        builder.show()
-    }
-
-
-    private fun deleteUser(user: User) {
-        viewModel.deleteUser(user)
+    override fun onClickToggleStatus(user: User) {
+        
+        viewModel.updateUserStatus(user)
     }
 }

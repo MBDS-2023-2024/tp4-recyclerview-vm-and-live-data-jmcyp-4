@@ -32,9 +32,21 @@ class UserViewModel : ViewModel() {
         refresh()
     }
 
-    fun deleteUser(user: User) {
-        userRepository.deleteUser(user)
-        refresh()
+//    fun deleteUser(user: User) {
+//        userRepository.deleteUser(user)
+//        refresh()
+//    }
+
+
+
+    // Mettre à jour le statut de l'utilisateur
+    fun updateUserStatus(user: User) {
+        val currentList = _users.value?.toMutableList() ?: mutableListOf()
+        val index = currentList.indexOfFirst { it.id == user.id }
+        if (index != -1) {
+            currentList[index] = user
+            _users.value = currentList
+        }
     }
 
 

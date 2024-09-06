@@ -18,7 +18,7 @@ class UserListAdapter(
         AsyncListDiffer(this, UserDiffCallback())
 
     interface Listener {
-        fun onClickDelete(user: User)
+        fun onClickToggleStatus(user: User)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListUserViewHolder {
