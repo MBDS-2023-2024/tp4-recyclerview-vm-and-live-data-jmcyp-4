@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_sort_alpha_asc"
+        android:title="Trier par nom (A-Z)"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_alpha_desc"
+        android:title="Trier par nom (Z-A)"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_date_asc"
+        android:title="Trier par date (croissant)"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_date_desc"
+        android:title="Trier par date (décroissant)"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_status"
+        android:title="Trier par statut"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+</menu>
