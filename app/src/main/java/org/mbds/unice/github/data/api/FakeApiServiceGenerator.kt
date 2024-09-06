@@ -31,10 +31,10 @@ object FakeApiServiceGenerator {
 
     @JvmField
     var FAKE_USERS_RANDOM = Arrays.asList(
-        User("021", "Lea", "https://api.adorable.io/AVATARS/512/21.png"),
-        User("022", "Geoffrey", "https://api.adorable.io/AVATARS/512/22.png"),
-        User("023", "Simon", "https://api.adorable.io/AVATARS/512/23.png"),
-        User("024", "André", "https://api.adorable.io/AVATARS/512/24.png"),
-        User("025", "Leopold", "https://api.adorable.io/AVATARS/512/25.png")
+        User("021", "Lea", "https://static.vecteezy.com/system/resources/previews/009/379/389/original/woman-face-clipart-design-illustration-free-png.png"),
+        User("022", "Geoffrey", "https://static.vecteezy.com/system/resources/previews/009/383/446/non_2x/little-kid-face-expression-clipart-design-illustration-free-png.png"),
+        User("023", "Simon", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png"),
+        User("024", "André", "https://www.seekpng.com/png/detail/17-176376_person-free-download-and-person-icon-png.png"),
+        User("025", "Leopold", "https://static.vecteezy.com/system/resources/previews/009/302/668/original/man-face-clipart-design-illustration-free-png.png")
     )
 }
