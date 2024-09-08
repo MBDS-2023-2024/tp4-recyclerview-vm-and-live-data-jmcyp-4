@@ -8,5 +8,5 @@ data class User(
     val login: String,
     val avatarUrl: String,
     var isActive: Boolean = true,
-    val creationDate: Long
+    val creationDate: java.util.Date
 )
